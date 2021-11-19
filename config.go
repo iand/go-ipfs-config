@@ -30,6 +30,7 @@ type Config struct {
 	Peering   Peering
 	DNS       DNS
 	Migration Migration
+	Filestore Filestore // local node's filestore storage for use by filestore experiment
 
 	Provider     Provider
 	Reprovider   Reprovider
